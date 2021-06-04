@@ -1,7 +1,8 @@
-<?php 
-    $host       = "localhost";
-    $user       = "root";
-    $password   = "";
-    $database   = "kuliah";
-    $koneksi    = mysqli_connect($host, $user, $password, $database);
+<?php
+	$host = "localhost";
+	$user = "root";
+	$pass = "";
+	$db = "kuliah";
+
+	$koneksi = mysqli_connect($host,$user,$pass,$db)or die(mysqli_error($koneksi));
 ?>
